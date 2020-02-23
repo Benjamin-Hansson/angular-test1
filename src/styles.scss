@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+$primary: #0700b8;
+// * { border: 1px solid red; }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 18px;
+}
+.back{
+    background:linear-gradient(90deg, transparent 0%, transparent 88%,rgba(200, 200, 200,0.07) 88%, rgba(200, 200, 200,0.07) 93%,transparent 93%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 83%,rgba(200, 200, 200,0.07) 83%, rgba(200, 200, 200,0.07) 91%,transparent 91%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 43%,rgba(200, 200, 200,0.07) 43%, rgba(200, 200, 200,0.07) 50%,transparent 50%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 16%,rgba(200, 200, 200,0.07) 16%, rgba(200, 200, 200,0.07) 56%,transparent 56%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    height: 100vh;
+    min-height: 1080px;
+    min-width: 750px;
+    margin: 0;
+    padding: 0;
+
+    max-height: 100%;
+}
+
+
+h1 {
+    margin-top: 2em;
+}
+
+.layout{
+
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 10px;
+    width: 98%;
+    height: 100%;
+}
+.layout-active {
+    grid-template-columns: 40% 60%;
+}
+
+.name {
+    grid-row-end: span 3 ;
+}
+
+.add-margin {
+    height: 90%;
+    margin: 5px;
+}

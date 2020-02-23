@@ -1,0 +1,16 @@
+<div class="container">
+    
+    <div class="inner" (click)="onClick()" (mouseenter)="onHover()" (mouseleave)="onHover()"[class.add-overflow]="overflow">
+        <span>Introduction</span>
+        <h1 *ngIf="clicked">Hey</h1>
+        <p *ngIf="clicked"  >This is an introduction about me and my website.
+            For now this will be filled with placeholder text: <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        
+    </div>
+</div>
